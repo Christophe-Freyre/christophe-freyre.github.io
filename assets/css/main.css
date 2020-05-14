@@ -196,6 +196,13 @@ input, select, textarea {
 			padding-bottom: 0.35em;
 		}
 
+		h1.major.about {
+			margin: 0 0 0.3em 0;
+			position: relative;
+			padding-bottom: 0.01em;
+			text-align: center;
+		}
+
 			h1.major:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
@@ -217,6 +224,10 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 	}
+		h2.about {
+			font-size: 1.1em;
+		}
+		
 
 	h3 {
 		font-size: 1.1em;
@@ -2603,6 +2614,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.fit.center img  {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 30%;
+			  }
+
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -2808,6 +2826,9 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+  		justify-content: center;
+  		align-items: center;
 	}
 
 		ul.icons li {
